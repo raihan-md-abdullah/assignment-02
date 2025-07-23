@@ -79,6 +79,9 @@
 /*Responsive Section*/
 
 @media screen and (max-width: 600px){
+ .main{
+    margin: 10px ;
+  }
   /*Nav-bar Section*/
   .nav-bar{
     margin: 0 auto;
@@ -103,5 +106,22 @@
   width: 70px;
   height: 40px;
 }
-
+/*Banner Section Responsive*/
+.hero-section{
+  flex-direction: column-reverse;
+  margin: 0 auto;
+  
+}
+.para{
+  margin-top: 10px;
+}
+.large{
+  font-size: 28px;
+}
+.bn-txt{
+  font-size: 12px;
+}
+.img img{
+  width: 100%;
+}
 }
