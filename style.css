@@ -9,7 +9,9 @@
 .main{
   margin: 20px 50px;
 }
-
+section{
+  margin-bottom: 50px;
+}
 /*Nav-bar Section*/
 
 .container{
@@ -61,9 +63,41 @@
   color: #747474;
 }
 
+/*Plants Section*/
 
+.plants .plants-text{
+  text-align: center;
+  margin: 50px;
+}
 
-
+.cards{
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 20px;
+  
+}
+.cards h3{
+  text-align: center;
+}
+.cards button{
+ width: 100%;
+ padding: 10px;
+ margin-top: 5px;
+ background-color: #FF6A00;
+ color: white;
+ border: 0px;
+ font-weight: 700;
+}
+.cards img{
+  width: 100%;
+  height: auto;
+}
+.cards div{
+  box-shadow: 4px 6px 10px 0px rgba(0, 0, 0, 0.25);
+}
+.cards button:hover{
+  background-color: #FF0000;
+}
 
 
 
@@ -123,5 +157,15 @@
 }
 .img img{
   width: 100%;
+}
+
+/*Plants Section Responsive*/
+.cards{
+  grid-template-columns: repeat(2, 1fr);
+}
+.plants .plants-text {
+  text-align: center;
+  margin: 10px;
+  margin-bottom: 30px;
 }
 }
