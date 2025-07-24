@@ -10,7 +10,7 @@
   margin: 20px 50px;
 }
 section{
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 /*Nav-bar Section*/
 
@@ -99,8 +99,26 @@ section{
   background-color: #FF0000;
 }
 
-
-
+/* Plants Lover Section*/
+.pl-container{
+  display: flex;
+  justify-items: space-evenly;
+  
+}
+.pl-img img{
+  width: 100%;
+  height: auto;
+}
+.pl-content{
+  text-align: left;
+  width: 100%;
+  height: auto;
+  margin-left: 80px;
+}
+.pl-content ul li{
+  margin-top: 12px;
+  margin-left: 18px;
+}
 
 
 
@@ -168,4 +186,7 @@ section{
   margin: 10px;
   margin-bottom: 30px;
 }
+
+/*Plants Lover Section*/
+
 }
