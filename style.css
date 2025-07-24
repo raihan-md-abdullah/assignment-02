@@ -11,7 +11,7 @@
   margin-bottom: 80px;
 }
 section{
-  margin-bottom: 100px;
+  margin-top: 100px;
 }
 /*Nav-bar Section*/
 
@@ -99,6 +99,8 @@ section{
 }
 .cards button:hover{
   background-color: #FF0000;
+  color: white;
+  transform: scale(1.1);
 }
 
 /* Plants Lover Section*/
@@ -162,9 +164,45 @@ justify-items: space-evenly;
 .input-area button:hover{
   background-color: red;
   color: white;
+  transform: scale(1.1);
 }
 
-
+/*Footer Section*/
+.footer-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 30px 0;
+  margin-left: 30px;
+}
+.menu-foot li{
+  font-size: 18px;
+  margin-bottom: 5%;
+}
+.menu-foot ul{
+  list-style-type: none;
+}
+.menu-foot a{
+  text-decoration: none;
+  color: #747474;
+  cursor: pointer;
+}
+.menu-foot li a:hover{
+  background-color: red;
+  color: white;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.icon a img {
+  width: 25px;
+  height: auto;
+  cursor: pointer;
+}
+.icon a img:hover {
+  transform: scale(1.5); 
+}
 
 
 /*Responsive Section*/
@@ -254,5 +292,33 @@ justify-items: space-evenly;
     font-size: 10px;
     
   }
+  /*Footer Section*/
+  .footer-container{
+    grid-template-columns: repeat(1,1fr);
+  }
+ .logo-bottom{
+   margin-right: 50px;
+   margin-bottom: 7px;
+ }
+  .menu-foot li {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  
+}
+.icon {
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 7px;
+}
+.icon a img {
+  width: 20px;
+  height: auto;
+  cursor: pointer;
+}
+.icon a img:hover {
+  transform: scale(1.3); 
+}
+
+
 
 }
